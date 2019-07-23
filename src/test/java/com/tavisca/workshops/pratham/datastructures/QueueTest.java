@@ -67,7 +67,7 @@ class QueueTest {
     @Test
     void handlesInterspersedRemoves() {
         int[] insertionLot1 = new int[]{1, 2, 3, 4};
-        int[] insertionLot2 = new int[]{9, 10, 11, 12, 13, 14, 15};
+        int[] insertionLot2 = new int[]{4,9, 10, 11, 12, 13, 14, 15};
 
         for (int v: insertionLot1) {
             b.add(v);
